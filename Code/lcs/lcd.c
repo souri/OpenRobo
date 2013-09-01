@@ -13,8 +13,6 @@ sbit LCD_D6_Direction at TRISB2_bit;
 sbit LCD_D5_Direction at TRISB1_bit;
 sbit LCD_D4_Direction at TRISB0_bit;
 
-
-
 void main()
 {
 unsigned char output;
@@ -28,16 +26,7 @@ PORTB=0;
 
 
  output='j';
-
-
-
-
-
-
-
-       Lcd_Out_Cp("Fuck Dit");
+       Lcd_Out_Cp("OpenRobo");
         Delay_ms(100);
-
-
 
   }

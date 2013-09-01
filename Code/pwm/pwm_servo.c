@@ -12,53 +12,39 @@ sbit LCD_D7_Direction at TRISB3_bit;
 sbit LCD_D6_Direction at TRISB2_bit;
 sbit LCD_D5_Direction at TRISB1_bit;
 sbit LCD_D4_Direction at TRISB0_bit;
+
 unsigned int a[5],reset,set,max_value,cw,tmrcounter,tmrcmp;
-   unsigned char output;
-   void isr()
-   {
-
-
-
-if(tmrcounter>=max_value )
+unsigned char output;
+void isr()
 {
-RB2_BIT=~RB2_BIT;
-RB1_BIT=0;
-tmrcounter=0;
-tmrcmp=0;
+  if(tmrcounter>=max_value )
+  {
+    RB2_BIT=~RB2_BIT;
+    RB1_BIT=0;
+    tmrcounter=0;
+    tmrcmp=0;
+  }
+  if (tmrcmp==cw)
+  {
+
+    RB1_BIT=1;
+  }
 }
-if (tmrcmp==cw)
+
+void interrupt()
 {
-
-RB1_BIT=1;
-
-
-          }
-
-
-         }
-
-
-
-
-
-
-      void interrupt()
-      {
-    //   INTCON.GIE=0;
-
-
-
-
+  // INTCON.GIE=0;
   if (INTCON.TMR0IF) {
-  RB0_BIT=~RB0_BIT;
-  tmrcounter+=1;
-  tmrcmp+=1;
-  isr();
+    RB0_BIT=~RB0_BIT;
+    tmrcounter+=1;
+    tmrcmp+=1;
+    isr();
 
-   INTCON.TMR0IF=0;
-   TMR0=156;
-   TMR0IE_BIT=1;
-    }  /*
+    INTCON.TMR0IF=0;
+    TMR0=156;
+    TMR0IE_BIT=1;
+    }
+    /*
       if(PIR1.RCIF)
       {
             PIE1.RCIE=0;
@@ -72,7 +58,7 @@ RB1_BIT=1;
      }
      */
     // INTCON.GIE=1;
-      }
+}
 
 void main()
 {
@@ -90,7 +76,6 @@ PORTD=0;
 TMR0=156;
 INTCON.GIE=1;
 INTCON.PEIE=1;
- PIE1.RCIE=1;
+PIE1.RCIE=1;
 TMR0IE_BIT=1;
-
 }
