@@ -1,0 +1,9 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo4 -N"C:\Users\ayush\Desktop\New folder\pwm\pwm_servo.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\ayush\Desktop\New folder\pwm\" "pwm_servo.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 31 ms	 
+diagnostics: 0	121	Compilation Started	pwm_servo.c
+error: 31	315	Invalid expression	pwm_servo.c
+error: 26	401	; expected, but 'void' found	pwm_servo.c
+error: 32	423	'}' expected ';' found	pwm_servo.c
+error: 49	312	Internal error ''	pwm_servo.c
+error: 0	102	Finished (with errors): 19 Jan 2011, 19:33:20	pwm_servo.mcppi

@@ -1,0 +1,13 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo20 -N"C:\Users\ayush\Desktop\New folder\servo.mcppi" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\ayush\Desktop\New folder\" "servo.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Button.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl"	 
+diagnostics: 0	125	All files Preprocessed in 31 ms	 
+diagnostics: 0	121	Compilation Started	servo.c
+hint: 3	1159	Variable 'a' has been declared, but not used	servo.c
+diagnostics: 42	122	Compiled Successfully	servo.c
+diagnostics: 0	126	All files Compiled in 94 ms	 
+hint: 0	1141	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)
+hint: 0	1141	Used ROM (program words): 88 (1%)  Free ROM (program words): 8104 (99%)	Used ROM (program words): 88 (1%)  Free ROM (program words): 8104 (99%)
+diagnostics: 0	124	Project Linked Successfully	servo.mcppi
+diagnostics: 0	127	Linked in 671 ms	 
+diagnostics: 0	128	Project 'servo.mcppi' completed: 1170 ms	 
+diagnostics: 0	103	Finished successfully: 20 Jan 2011, 16:20:40	servo.mcppi

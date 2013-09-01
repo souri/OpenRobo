@@ -1,0 +1,16 @@
+[frmWatchValues]
+FormVersion=0
+WatchCount=2
+Column0=100
+Column1=80
+Column2=80
+cbPeripheralFreez_Checked=TRUE
+Name1=TMR0
+ShowType1=0
+Signed1=FALSE
+Expanded1=FALSE
+Name2=TMR0IF_bit
+ShowType2=0
+Signed2=FALSE
+Expanded2=FALSE
+

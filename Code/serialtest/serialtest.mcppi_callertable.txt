@@ -1,0 +1,10 @@
+main
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	uart
+		UART1_Data_Ready
+		UART1_Read
+		UART1_Write
+		Mul_16x16_U
+	UART1_Init
