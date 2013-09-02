@@ -17,7 +17,7 @@ This project is released under the MIT License.
 
 The MIT License (MIT)
 
-Copyright (c) 2011 Souri Guha<souriguha@gmail.com>, Ayush Dewan<pisces.aayush@gmail.com>
+Copyright (c) 2011 [Souri Guha](mailto:souriguha@gmail.com), [Ayush Dewan](mailto:pisces.aayush@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
