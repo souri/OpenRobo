@@ -1,10 +1,18 @@
 OpenRobo
 ========
 
+Description
+-----------
 This is an Four Axis Robot Arm. The mechanical/software designs are included. Intended for research and academic usage.
 
+Contact
+-------
 Contact http://souriguha.wordpress.com for clarifications.
 
+Shoot an email to souriguha@gmail.com for urgent queries.
+
+License
+------- 
 This project is released under the MIT License.
 
 The MIT License (MIT)
